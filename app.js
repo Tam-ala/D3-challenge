@@ -30,6 +30,15 @@ var chartGroup = svg.append("g")
 var chosenXAxis = "healthcare";
 var chosenYAxis = "poverty";
 
+// add chart title
+var chartTitle = svg.append("text")
+    .attr("x", width - 200)             
+    .attr("y", margin.top - 5)
+    .attr("text-anchor", "middle")  
+    .style("font-size", 5)
+    .style("stroke-width", 2)
+    .text("Selected Health Risks Facing Particular Demographics");
+
 // Make function used for updating x-scale & y-scale var upon click on axis label
 // =========================================================================
 function xScale(timesData, chosenXAxis) {
