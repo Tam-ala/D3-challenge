@@ -14,13 +14,6 @@ body {
   padding-bottom: 80px;
 }
 
-.center_graph {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  margin: -25px 0 0 -25px; /* apply negative top and left margins to truly center the element */
-}
-
 #footer {
   position: absolute;
   bottom: 0;
